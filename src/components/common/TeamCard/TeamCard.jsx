@@ -11,8 +11,8 @@ import 'aos/dist/aos.css';
 const TeamCard = ({ current }) => {
 
   useEffect(() => {
-    AOS.init({duration: 500});
-  },[]);
+    AOS.init({ duration: 500 });
+  }, []);
 
   const heights = "30px"
   const theme = useContext(ThemeContext)
@@ -39,8 +39,8 @@ const TeamCard = ({ current }) => {
         <p>{current.position}</p>
         <div className={classes.icons}>
           <Insta height={heights} width={heights} redirect={() => handleClick("insta")} />
-          <GithubIcon height={heights} width={heights} color={`${theme.theme === "dark" ? "#fff" : "#222"}`} redirect={() => handleClick("github")}/>
-          <LinkedIn height={heights} width={heights} redirect={() => handleClick("linkedin")}/>
+          <GithubIcon height={heights} width={heights} color={`${theme.theme === "dark" ? "#fff" : "#222"}`} redirect={() => handleClick("github")} />
+          <LinkedIn height={heights} width={heights} redirect={() => handleClick("linkedin")} />
         </div>
       </div>
     </div>
