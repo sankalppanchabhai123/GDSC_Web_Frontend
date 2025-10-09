@@ -22,18 +22,18 @@ const Events = () => {
     const [previousEvents, setPreviousEvents] = useState([])
     const [upcomingEvents, setUpcomingEvents] = useState([])
     useEffect(() => {
-      async function fetchData() {
-        try {
-          const preData = await getEventsData("past");
-          const upcomingdata = await getEventsData("upcoming");
-          setPreviousEvents(preData)
-          setUpcomingEvents(upcomingdata)
+        async function fetchData() {
+            try {
+                const preData = await getEventsData("past");
+                const upcomingdata = await getEventsData("upcoming");
+                setPreviousEvents(preData)
+                setUpcomingEvents(upcomingdata)
 
-        } catch (error) {
-          console.log("Error fetching data:", error);
+            } catch (error) {
+                console.log("Error fetching data:", error);
+            }
         }
-      }
-      fetchData();
+        fetchData();
     }, []);
 
     return (
@@ -41,9 +41,9 @@ const Events = () => {
             <div className={classes.infoContainer}>
                 <h1>EVENTS <span>&</span> WORKSHOPS</h1>
                 <div className={classes.numbers}>
-                    {/* <h1><Number n={15}/> <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style={{ "--color": "#EA4335" }}>Events</span></h1> */}
-                    {/* <h1><Number n={10}/><span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" style={{ "--color": "#34A853" }}>Workshops</span></h1> */}
-                    {/* <h1><Number n={100}/><span data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="1500" style={{ "--color": "#FBBC04" }}>Members</span></h1> */}
+                    {/* <h1><Number n={15} /> <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style={{ "--color": "#EA4335" }}>Events</span></h1>
+                    <h1><Number n={10} /><span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" style={{ "--color": "#34A853" }}>Workshops</span></h1>
+                    <h1><Number n={100} /><span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500" style={{ "--color": "#FBBC04" }}>Members</span></h1> */}
                     {info["total"].map((current, idx) => (
                         <h1 key={idx}>
                             <Number n={current.number} />
@@ -59,7 +59,7 @@ const Events = () => {
                     <h1>Upcoming Events</h1>
                     <div className={classes.cards}>
                         {upcomingEvents && upcomingEvents.map((current, idx) => (<EventCard key={idx} current={current} />))}
-                        {upcomingEvents.length===0 && <h1 className={classes.noEventInfo}>No upcoming Events Right Now But we will be back shortly</h1>}
+                        {upcomingEvents.length === 0 && <h1 className={classes.noEventInfo}>No upcoming Events Right Now But we will be back shortly</h1>}
                     </div>
                 </div>
                 <div className={classes.prevEventsContainer}>
@@ -70,7 +70,7 @@ const Events = () => {
                     </div>
                 </div>
             </div>
-            <Button label="See more" color='#DB4437' onClick={() => {window.open("https://gdsc.community.dev/dy-patil-college-of-engineering-pune/", "_blank")}}/>
+            <Button label="See more" color='#DB4437' onClick={() => { window.open("https://gdg.community.dev/gdg-on-campus-dy-patil-college-of-engineering-pune-india/", "_blank") }} />
         </div>
     )
 }
