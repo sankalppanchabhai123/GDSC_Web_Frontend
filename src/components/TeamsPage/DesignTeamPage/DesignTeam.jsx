@@ -1,7 +1,7 @@
 import React from 'react'
 import { TeamCard } from '../../common'
 import classes from '../TechTeamPage/TechTeamPage.module.css'
-// import info from '../TeamsInfo'
+import info from '../TeamsInfo'
 import bgr from '../../../assets/redball.png'
 import bgg from '../../../assets/bgg.png'
 import bgb from '../../../assets/blueball.png'
@@ -15,7 +15,15 @@ const DesignTeam = ({ data }) => {
       <h1 className={classes.h1} data-aos="fade-left">Design Team</h1>
       <div className={`${classes.technicalTeam} ${classes.cardContainers}`}>
         {
-          data.map((current, idx) => <TeamCard key={idx} current={current} />)
+          // data.map((current, idx) => <TeamCard key={idx} current={current} />)
+          info.teams.design.lead.map((current, idx) => <TeamCard key={idx} current={current} />)
+        }
+      </div>
+      <h1 className={classes.h1} data-aos="fade-left">Coordinators</h1>
+      <div className={`${classes.technicalTeam} ${classes.cardContainers}`}>
+        {
+          // data.map((current, idx) => <TeamCard key={idx} current={current} />)
+          info.teams.design.coord.map((current, idx) => <TeamCard key={idx} current={current} />)
         }
       </div>
     </>

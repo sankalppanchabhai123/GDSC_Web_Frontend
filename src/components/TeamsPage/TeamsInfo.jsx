@@ -28,12 +28,10 @@ import crp2 from '../../assets/Neelam.jpg'
 import crp3 from '../../assets/Yash_dhoot_PR_Co.jpg'
 
 
-
-
 let info = {
     lead: [
         {
-            name: "Shreya Dhurde",
+            name: "Ganesh Dhalke",
             position: "Lead",
             img: lead,
             shadow: "#F74037",
@@ -42,7 +40,16 @@ let info = {
             linkedIn: "",
         },
         {
-            name: "Dipali Patil",
+            name: "Maithili Mahesh",
+            position: "Co-Lead",
+            img: lead,
+            shadow: "#F74037",
+            insta: "",
+            github: "",
+            linkedIn: "",
+        },
+        {
+            name: "Rasika Wattamwar",
             position: "Faculty Coordinator",
             img: ins,
             shadow: "#F74037",
@@ -52,10 +59,11 @@ let info = {
         }
     ],
     teams: {
-        technical: [
+        technical:{
+            lead: [
             {
-                name: "Om Gawande",
-                position: "Web Specialist",
+                name: "Sankalp Panchabhai",
+                position: "Web Lead",
                 img: t1,
                 shadow: "#4285F4",
                 insta: "",
@@ -63,8 +71,8 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Palash Rambhia",
-                position: "Android Specialist",
+                name: "Varun Nagote",
+                position: "DSA-CP Lead",
                 img: t2,
                 shadow: "#14B25F",
                 insta: "",
@@ -72,8 +80,8 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Simran Khaparde",
-                position: "CyberSecurity Specialist",
+                name: "Atharva ",
+                position: "Android Lead",
                 img: t3,
                 shadow: "#FBBC04",
                 insta: "",
@@ -81,8 +89,8 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Nikhil Shinde",
-                position: "Cloud Specialist",
+                name: "Atharva",
+                position: "AI-ML Lead",
                 img: t4,
                 shadow: "#4285F4",
                 insta: "",
@@ -90,8 +98,8 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Yash Pame",
-                position: "AI-ML Specialist",
+                name: "Anjali Agale",
+                position: "Cloud Lead",
                 img: t5,
                 shadow: "#14B25F",
                 insta: "",
@@ -99,8 +107,8 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Onkar Waghmode",
-                position: "Tech Coordinator",
+                name: "Tanishka Mutta",
+                position: "Cyber Security",
                 img: crt1,
                 shadow: "#14B25F",
                 insta: "",
@@ -108,14 +116,15 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Ayush Ahire",
-                position: "Tech Coordinator",
+                name: "Sidhant",
+                position: "Cyber Security Lead",
                 img: crt2,
                 shadow: "#4285F4",
                 insta: "",
                 github: "",
                 linkedIn: "",
-            },
+            }],
+            coord:[
             {
                 name: "Shweta Mandal",
                 position: "Tech Coordinator",
@@ -143,11 +152,11 @@ let info = {
                 github: "",
                 linkedIn: "",
             }
-            
-        ],
-        design: [
+        ]},
+        design: {
+            lead:[
             {
-                name: "Saurabh Barde",
+                name: "Kaushal Abhojwar",
                 position: "Design Lead",
                 img: d2,
                 shadow: "#F74037",
@@ -156,7 +165,7 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Sakshi Thombre",
+                name: "Sakshi Chaudhari",
                 position: "Design Lead",
                 img: d1,
                 shadow: "#F74037",
@@ -165,16 +174,17 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Kartik Bankar",
+                name: "Sarvesh Chavan",
                 position: "Design Coordinator",
                 img: crd3,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
                 linkedIn: "",
-            },
+            }],
+            coord:[
             {
-                name: "Nikita Thakur",
+                name: "shreya",
                 position: "Design Coordinator",
                 img: crd1,
                 shadow: "#F74037",
@@ -183,7 +193,7 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Raunak Mesharam",
+                name: "Atharva",
                 position: "Design Coordinator",
                 img:crd2,
                 shadow: "#F74037",
@@ -191,10 +201,11 @@ let info = {
                 github: "",
                 linkedIn: "",
             },
-        ],
-        management: [
+        ]},
+        management: {
+            lead:[
             {
-                name: "Abhishek Suryawanshi",
+                name: "Janhavi Ghanghav",
                 position: "Management Lead",
                 img: m1,
                 shadow: "#F74037",
@@ -203,7 +214,7 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Ashutosh Shimpi",
+                name: "Nitin Daiya",
                 position: "Management Lead",
                 img: m2,
                 shadow: "#F74037",
@@ -212,8 +223,8 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Soham Wadje",
-                position: "Management Coordinator",
+                name: "Sujal Patil",
+                position: "Management Lead",
                 img: crm1,
                 shadow: "#F74037",
                 insta: "",
@@ -221,25 +232,36 @@ let info = {
                 linkedIn: "",
             },
             {
-                name: "Prathamesh Nigade",
-                position: "Management Coordinator",
-                img: crm2,
+                name: "Rutuja Chaudhari",
+                position: "Management Lead",
+                img: crm1,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
                 linkedIn: "",
-            },
-            {
-                name: "Arpan Yeole",
-                position: "Management Coordinator",
-                img: crm3,
-                shadow: "#F74037",
-                insta: "",
-                github: "",
-                linkedIn: "",
-            },
-        ],
-        pr: [
+            }],
+            // {
+            //     name: "Prathamesh Nigade",
+            //     position: "Management Coordinator",
+            //     img: crm2,
+            //     shadow: "#F74037",
+            //     insta: "",
+            //     github: "",
+            //     linkedIn: "",
+            // },
+            // {
+            //     name: "Arpan Yeole",
+            //     position: "Management Coordinator",
+            //     img: crm3,
+            //     shadow: "#F74037",
+            //     insta: "",
+            //     github: "",
+            //     linkedIn: "",
+            // },
+        // ],
+        },
+        pr: {
+            lead:[
             {
                 name: "Vaishnavi Mokadam",
                 position: "PR Lead",
@@ -288,6 +310,270 @@ let info = {
         ],
         
     }
-};
-
+}
+}
 export default info
+
+
+
+// let info = {
+//     lead: [
+//         {
+//             name: "Shreya Dhurde",
+//             position: "Lead",
+//             img: lead,
+//             shadow: "#F74037",
+//             insta: "",
+//             github: "",
+//             linkedIn: "",
+//         },
+//         {
+//             name: "Dipali Patil",
+//             position: "Faculty Coordinator",
+//             img: ins,
+//             shadow: "#F74037",
+//             insta: "",
+//             github: "",
+//             linkedIn: "",
+//         }
+//     ],
+//     teams: {
+//         technical: [
+//             {
+//                 name: "Om Gawande",
+//                 position: "Web Specialist",
+//                 img: t1,
+//                 shadow: "#4285F4",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Palash Rambhia",
+//                 position: "Android Specialist",
+//                 img: t2,
+//                 shadow: "#14B25F",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Simran Khaparde",
+//                 position: "CyberSecurity Specialist",
+//                 img: t3,
+//                 shadow: "#FBBC04",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Nikhil Shinde",
+//                 position: "Cloud Specialist",
+//                 img: t4,
+//                 shadow: "#4285F4",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Yash Pame",
+//                 position: "AI-ML Specialist",
+//                 img: t5,
+//                 shadow: "#14B25F",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Onkar Waghmode",
+//                 position: "Tech Coordinator",
+//                 img: crt1,
+//                 shadow: "#14B25F",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Ayush Ahire",
+//                 position: "Tech Coordinator",
+//                 img: crt2,
+//                 shadow: "#4285F4",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Shweta Mandal",
+//                 position: "Tech Coordinator",
+//                 img: crt3,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Anvi Gautam",
+//                 position: "Tech Coordinator",
+//                 img: crt5,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Vedant Bodkhe",
+//                 position: "Tech Coordinator",
+//                 img: crt4,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             }
+            
+//         ],
+//         design: [
+//             {
+//                 name: "Saurabh Barde",
+//                 position: "Design Lead",
+//                 img: d2,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Sakshi Thombre",
+//                 position: "Design Lead",
+//                 img: d1,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Kartik Bankar",
+//                 position: "Design Coordinator",
+//                 img: crd3,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Nikita Thakur",
+//                 position: "Design Coordinator",
+//                 img: crd1,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Raunak Mesharam",
+//                 position: "Design Coordinator",
+//                 img:crd2,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//         ],
+//         management: [
+//             {
+//                 name: "Abhishek Suryawanshi",
+//                 position: "Management Lead",
+//                 img: m1,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Ashutosh Shimpi",
+//                 position: "Management Lead",
+//                 img: m2,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Soham Wadje",
+//                 position: "Management Coordinator",
+//                 img: crm1,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Prathamesh Nigade",
+//                 position: "Management Coordinator",
+//                 img: crm2,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Arpan Yeole",
+//                 position: "Management Coordinator",
+//                 img: crm3,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//         ],
+//         pr: [
+//             {
+//                 name: "Vaishnavi Mokadam",
+//                 position: "PR Lead",
+//                 img: pr1,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "", 
+//             },
+//             {
+//                 name: "Vaishnavi Barge",
+//                 position: "PR Lead",
+//                 img: pr2,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "K.S.S. Varsha",
+//                 position: "PR Coordinator",
+//                 img: crp1,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Yash Dhoot",
+//                 position: "PR Coordinator",
+//                 img: crp3,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//             {
+//                 name: "Neelam Pawar",
+//                 position: "PR Coordinator",
+//                 img: crp2,
+//                 shadow: "#F74037",
+//                 insta: "",
+//                 github: "",
+//                 linkedIn: "",
+//             },
+//         ],
+        
+//     }
+// };
+
+// export default info

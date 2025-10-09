@@ -11,16 +11,6 @@ import android from "../../assets/android.json"
 
 let info = [
     {
-        span: "Android",
-        heading: "Development",
-        description: "Every year Google developers release exciting new updates to the world's most popular operating system. We always have sessions to keep you updated and mastering the latest trends in modern Android development.",
-        img: android,
-        link: "https://codelabs.developers.google.com/?cat=Android",
-        reverse: false,
-        color: "#14B25F",
-        bgColor: "#E7F7E7",
-    },
-    {
         span: "Web",
         heading: "Development",
         description: "Learn the core foundations of a delightful web experience both for the user and developer. Stay up to tabs with emerging and trending technologies. Get access to a guided, tutorial and hands-on coding experience.",
@@ -29,6 +19,16 @@ let info = [
         reverse: true,
         color: "#FFB808",
         bgColor: "none",
+    },
+    {
+        span: "Android",
+        heading: "Development",
+        description: "Every year Google developers release exciting new updates to the world's most popular operating system. We always have sessions to keep you updated and mastering the latest trends in modern Android development.",
+        img: android,
+        link: "https://codelabs.developers.google.com/?cat=Android",
+        reverse: false,
+        color: "#14B25F",
+        bgColor: "#E7F7E7",
     },
     {
         span: "Cloud",
