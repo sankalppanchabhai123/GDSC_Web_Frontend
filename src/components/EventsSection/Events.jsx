@@ -65,7 +65,7 @@ const Events = () => {
                 <div className={classes.prevEventsContainer}>
                     <h1>Previous Events</h1>
                     <div className={classes.cards}>
-                        {previousEvents.map((current, idx) => (<EventCard key={idx} current={current} />))}
+                        {/* {previousEvents.map((current, idx) => (<EventCard key={idx} current={current} />))} */}
                         {/* {info['previous'].map((current, idx) => (<EventCard key={idx} current={current} />))} */}
                     </div>
                 </div>

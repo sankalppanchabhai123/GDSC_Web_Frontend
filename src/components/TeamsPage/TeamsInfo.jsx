@@ -1,32 +1,34 @@
 // import image from '../../assets/img.png'
-import lead from '../../assets/lead.jpeg'
-import ins from '../../assets/deepaliMam.jpg'
-import t1 from '../../assets/t1.jpg'
-import t2 from '../../assets/t2.jpeg'
-import t3 from '../../assets/t3.png'
-import t4 from '../../assets/t4.jpg'
-import t5 from '../../assets/t5.jpg'
-import d1 from '../../assets/d1.jpg'
-import d2 from '../../assets/d2.jpg'
-import pr1 from '../../assets/pr1.jpeg'
-import pr2 from '../../assets/pr2.jpg'
-import m1 from '../../assets/m1.jpeg'
-import m2 from '../../assets/m2.jpg'
-import crt1 from '../../assets/Onkar.jpg'
-import crt2 from '../../assets/Ayush_ahire.jpg'
-import crt3 from '../../assets/Shweta.jpg'
-import crt4 from '../../assets/Vedant.jpg'
-import crt5 from '../../assets/anvi.jpg'
-import crd1 from '../../assets/Nikita_Thakur.jpg'
-import crd2 from '../../assets/Raunak.jpg'
-import crd3 from '../../assets/IMG_20230101_104115.jpg'
-import crm1 from '../../assets/SohamVadje_Management.jpg'
-import crm2 from '../../assets/prathamesh.jpg'
-import crm3 from '../../assets/Arpan.jpg'
-import crp1 from '../../assets/Vardha.png'
-import crp2 from '../../assets/Neelam.jpg'
-import crp3 from '../../assets/Yash_dhoot_PR_Co.jpg'
+// import ins from '../../assets/deepaliMam.jpg'
+// import t1 from '../../assets/t1.jpg'
+// import t2 from '../../assets/t2.jpeg'
+// import t3 from '../../assets/t3.png'
+// import t4 from '../../assets/t4.jpg'
+// import t5 from '../../assets/t5.jpg'
+// import d1 from '../../assets/d1.jpg'
+// import d2 from '../../assets/d2.jpg'
+// import pr1 from '../../assets/pr1.jpeg'
+// import pr2 from '../../assets/pr2.jpg'
+// import m1 from '../../assets/m1.jpeg'
+// import m2 from '../../assets/m2.jpg'
+// import crt1 from '../../assets/Onkar.jpg'
+// import crt2 from '../../assets/Ayush_ahire.jpg'
+// import crt3 from '../../assets/Shweta.jpg'
+// import crt4 from '../../assets/Vedant.jpg'
+// import crt5 from '../../assets/anvi.jpg'
+// import crd1 from '../../assets/Nikita_Thakur.jpg'
+// import crd2 from '../../assets/Raunak.jpg'
+// import crd3 from '../../assets/IMG_20230101_104115.jpg'
+// import crm1 from '../../assets/SohamVadje_Management.jpg'
+// import crm2 from '../../assets/prathamesh.jpg'
+// import crm3 from '../../assets/Arpan.jpg'
+// import crp1 from '../../assets/Vardha.png'
+// import crp2 from '../../assets/Neelam.jpg'
+// import crp3 from '../../assets/Yash_dhoot_PR_Co.jpg'
 
+import lead from '../../assets/Leads/lead.jpg'
+import sankalp from '../../assets/Leads/sankalp.jpg'
+import kaushal from '../../assets/Leads/kaushal.jpg'
 
 let info = {
     lead: [
@@ -64,7 +66,7 @@ let info = {
             {
                 name: "Sankalp Panchabhai",
                 position: "Web Lead",
-                img: t1,
+                img: sankalp,
                 shadow: "#4285F4",
                 insta: "",
                 github: "",
@@ -158,7 +160,7 @@ let info = {
             {
                 name: "Kaushal Abhojwar",
                 position: "Design Lead",
-                img: d2,
+                img: kaushal,
                 shadow: "#F74037",
                 insta: "",
                 github: "",
@@ -240,25 +242,7 @@ let info = {
                 github: "",
                 linkedIn: "",
             }],
-            // {
-            //     name: "Prathamesh Nigade",
-            //     position: "Management Coordinator",
-            //     img: crm2,
-            //     shadow: "#F74037",
-            //     insta: "",
-            //     github: "",
-            //     linkedIn: "",
-            // },
-            // {
-            //     name: "Arpan Yeole",
-            //     position: "Management Coordinator",
-            //     img: crm3,
-            //     shadow: "#F74037",
-            //     insta: "",
-            //     github: "",
-            //     linkedIn: "",
-            // },
-        // ],
+        
         },
         pr: {
             lead:[
